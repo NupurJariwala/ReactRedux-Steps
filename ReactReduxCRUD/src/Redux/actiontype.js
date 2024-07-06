@@ -1,0 +1,16 @@
+//Product
+
+export const POST_DATA_REQUEST = "POST_DATA_REQUEST";
+export const POST_DATA_SUCCESS = "POST_DATA_SUCCESS";
+export const POST_DATA_FAIL = "POST_DATA_FAIL";
+
+//Auth
+export const AUTH_DATA_REQUEST = "AUTH_DATA_REQUEST";
+export const AUTH_DATA_SUCCESS = "AUTH_DATA_SUCCESS";
+export const AUTH_DATA_FAIL = "AUTH_DATA_FAIL";
+
+//GET
+
+export const GET_DATA_REQUEST = "GET_DATA_REQUEST";
+export const GET_DATA_SUCCESS = "GET_DATA_SUCCESS";
+export const GET_DATA_FAIL = "GET_DATA_FAIL";
