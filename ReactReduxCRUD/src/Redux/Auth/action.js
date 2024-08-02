@@ -7,7 +7,7 @@ import {
 
 export const postuserdata = (userdata) => (dispatch) => {
   dispatch({ type: AUTH_DATA_REQUEST, payload: true });
- return axios
+  return axios
     .post("https://reqres.in/api/login", userdata)
     .then((res) => {
       console.log(res.data.token),
